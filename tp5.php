@@ -10,10 +10,10 @@
             $b = 0;
             $a = $_POST['prenom'];
             $b = $_POST['nom'];
-            echo $a+$b."<br/>";
-            echo $a-$b."<br/>";
-            echo $a*$b."<br/>";
-            echo $a/$b."<br/>";
+            echo "Somme : ".$a+$b."<br/>";
+            echo "Soustraction : ".$a-$b."<br/>";
+            echo "Multiplication : ".$a*$b."<br/>";
+            echo "Division : ".$a/$b."<br/>";
 
 
 

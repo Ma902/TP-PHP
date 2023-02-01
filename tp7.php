@@ -13,7 +13,8 @@
 
     if($us == 'admin' && $pass == 'admin')
     {
-        echo 'Bienvenue '.$us.' vous êtes connecté';
+        echo 'Bienvenue '.$us.' vous êtes connecté'.'<br/>';
+        echo ' il est : '.Date('H:i').' le : '.Date('j:m:Y');  
     }
     else
     {
